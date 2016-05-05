@@ -1,4 +1,4 @@
-var name = "bounus-CustomError/createAndThrow";
+var name = "bonus-CustomError/createAndThrow";
 var chai = require("chai");
 var expect = chai.expect;
 var runner = require("../" + name);
