@@ -13,7 +13,7 @@ function getAddress () {
   var person = {
     name: "Danny"
   }
-  if (person.address.city == "Denver") {
+  if (person.city == "Denver") {
     return true
   } else {
     return false

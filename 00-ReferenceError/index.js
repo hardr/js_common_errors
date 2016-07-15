@@ -6,7 +6,7 @@
 
 function increment (number) {
   number++
-  return numbe
+  return number
 }
 
 module.exports = increment

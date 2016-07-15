@@ -2,7 +2,7 @@ var name = "03-SyntaxError"
 var chai = require("chai");
 var expect = chai.expect;
 
-xdescribe(name, function () {
+describe(name, function () {
   it("Fix the SyntaxError 00", function () {
     expect(()=>require("../" + name + "/00")).to.not.throw(SyntaxError)
   });

@@ -5,8 +5,8 @@
 // function
 
 function increment () {
-  var number = 1
-  return number()++
+  var number = 1;
+  return number++;
 }
 
 module.exports = increment

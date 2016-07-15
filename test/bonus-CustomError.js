@@ -3,7 +3,7 @@ var chai = require("chai");
 var expect = chai.expect;
 var runner = require("../" + name);
 
-xdescribe(name, function () {
+describe(name, function () {
   it("Appropriately returns the input parameter for non-strings", function () {
     expect(runner(1)).to.equal(1);
     expect(runner(true)).to.equal(true);
